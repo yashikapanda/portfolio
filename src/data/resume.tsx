@@ -40,7 +40,13 @@ export const DATA = {
       Instagram: {
         name: "Instagram",
         url: "https://www.instagram.com/_yashika_panda_?igsh=MXVyZGk1cWFoejVvbg==",
-        icon: Icons.github, // Fallback since instagram icon might not be present in Icons
+        icon: Icons.instagram,
+        navbar: true,
+      },
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/yashikapanda",
+        icon: Icons.github,
         navbar: true,
       },
       email: {

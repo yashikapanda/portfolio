@@ -16,7 +16,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="min-h-dvh flex flex-col gap-14 relative bg-background relative z-10 w-full overflow-hidden">
+    <main className="min-h-dvh flex flex-col gap-14 relative bg-gradient-to-br from-background to-muted z-10 w-full overflow-hidden">
       <FlickeringGrid
         className="z-[-1] absolute inset-0 size-full"
         squareSize={4}
@@ -43,7 +43,7 @@ export default function Page() {
               <BlurFade delay={BLUR_FADE_DELAY * 2}>
                 <div className="mt-4 flex flex-wrap gap-4">
                   <a
-                    href="/yashika-resume.pdf"
+                    href="/Yashika_panda_FlowCV_Resume_2026-04-07.pdf"
                     download
                     className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-primary px-8 py-3 font-medium text-primary-foreground shadow-[0_0_40px_-10px_rgba(0,0,0,0.3)] transition-all hover:scale-105 hover:shadow-[0_0_40px_-10px_hsl(var(--primary))]"
                   >
